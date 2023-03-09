@@ -41,7 +41,6 @@ const Form = () => {
             </div>
             {show &&  <Card nombre={user.nombre} apellido={user.apellido} colorFavorito = {user.colorFavorito}/>}
 
-            <h3>Front</h3>
         </div>
 
     )
