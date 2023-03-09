@@ -38,8 +38,8 @@ const Form = () => {
                 </form>
                 <br />
                 <p style={{color:'red'}}>{err && 'Por favor chequea que la información sea correcta'}</p>
-            {show &&  <Card nombre={user.nombre} apellido={user.apellido} colorFavorito = {user.colorFavorito}/>}
             </div>
+            {show &&  <Card nombre={user.nombre} apellido={user.apellido} colorFavorito = {user.colorFavorito}/>}
         </div>
     )
 }
