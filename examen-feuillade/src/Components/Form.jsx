@@ -26,7 +26,7 @@ const Form = () => {
     return(
         <div>
             <h2>Elige un color</h2>
-        <div style={{flexDirection: 'column', width: '300px', margin: '10%',padding: '10%',display:'flex', justifyContent:'space-around', border: '1px solid green', backgroundColor:'lightgrey'}}>
+        <div style={{flexDirection: 'column', width: '300px', margin: '10%',padding: '10%',display:'flex', border: '1px solid green', backgroundColor:'lightgrey'}}>
             
             <form onSubmit={handleSubmit}>
                 <input placeholder='Ingrese su nombre' type="text" value={user.nombre} onChange={(e)=> setUser({...user, nombre: e.target.value})} />
