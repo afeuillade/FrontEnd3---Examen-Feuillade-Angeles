@@ -40,7 +40,10 @@ const Form = () => {
                 <p style={{color:'red'}}>{err && 'Por favor chequea que la información sea correcta'}</p>
             </div>
             {show &&  <Card nombre={user.nombre} apellido={user.apellido} colorFavorito = {user.colorFavorito}/>}
+
+            <h3>Front</h3>
         </div>
+
     )
 }
 
